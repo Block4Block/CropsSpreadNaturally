@@ -1,0 +1,54 @@
+# This is the default config.
+# If you want to make changes that persist between server reloads/restarts:
+#   1. Create a new file called config.yml
+#   2. Add new values for each key you want to replace (e.g., spawn-egg-chance: 0.5)
+#   3. If a key doesn't exist in config.yml, the plugin will look for it in default.yml
+
+# Chance (%) for each crop to spread at specific growth stages
+spread-on-reach-age:
+  WHEAT:
+    1: 20
+    2: 30
+    3: 40
+    4: 50
+    5: 60
+    6: 70
+    7: 100
+  POTATOES:
+    1: 10
+    2: 15
+    3: 20
+    4: 25
+    5: 30
+    6: 35
+    7: 100
+  CARROTS:
+    1: 10
+    2: 15
+    3: 20
+    4: 25
+    5: 30
+    6: 35
+    7: 100
+  BEETROOTS:
+    1: 15
+    2: 30
+    3: 100
+
+directions-to-spread:
+  - NORTH
+  - EAST
+  - SOUTH
+  - WEST
+  - NORTH_EAST
+  - NORTH_WEST
+  - SOUTH_EAST
+  - SOUTH_WEST
+#  - WEST_NORTH_WEST
+#  - NORTH_NORTH_WEST
+#  - NORTH_NORTH_EAST
+#  - EAST_NORTH_EAST
+#  - EAST_SOUTH_EAST
+#  - SOUTH_SOUTH_EAST
+#  - SOUTH_SOUTH_WEST
+#  - WEST_SOUTH_WEST
