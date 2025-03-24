@@ -1,6 +1,6 @@
 name: CropsSpreadNaturally
 main: hasjamon.cropsspreadnaturally.CropsSpreadNaturally
-api-version: 1.20
+api-version: 1.21
 authors: [ HasJamOn, Bahm ]
 version: 1.0
 description: CropsSpreadNaturally plugin
