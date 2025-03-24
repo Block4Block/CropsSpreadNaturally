@@ -3,4 +3,4 @@ main: hasjamon.cropsspreadnaturally.CropsSpreadNaturally
 api-version: 1.21
 authors: [ HasJamOn, Bahm ]
 version: 1.0
-description: CropsSpreadNaturally plugin
+description: Crops now have a configurable chance to spread to neighboring farmland.
